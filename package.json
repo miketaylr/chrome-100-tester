@@ -1,0 +1,11 @@
+{
+  "name": "chrome-100-tester",
+  "version": "1.0.0",
+  "description": "Web Extension to spoof as Chrome 100 to test for breakage.",
+  "author": "Mike Taylor",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miketaylr/chrome-100-tester"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Chrome extension to test a Chrome 100 UA string",
+  "manifest_version": 2,
+  "name": "Chrome v100 tester",
+  "version": "1.0",
+  "homepage_url": "https://github.com/miketaylr/chrome-100-tester",
+  "icons": {
+    "128": "v100.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}
